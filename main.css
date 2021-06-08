@@ -1,6 +1,7 @@
 html body {
     background-color: #EDF3F8 ;
     font-family: 'Public Sans', sans-serif;
+    
 }
 
 h1 {
@@ -23,7 +24,7 @@ h1 {
 
 .navbar {
     margin-top: 40px;
-    background-color: transparent !important;
+    background-color: none;
 }
 .navbar-nav {
     margin-left: 60px;
@@ -67,7 +68,14 @@ h1 {
 .hero-section {
     height: 100vh;
     overflow: hidden;
-    
+    background: url('assets/bg-pattern-circle.svg');
+    background-repeat: no-repeat;
+    background-position: 780px -150px;
+        
+}
+
+.hero-container {
+    display: flex;
 }
 
 .hero-left-col {
@@ -76,22 +84,24 @@ h1 {
 }
 
 .hero-right-col {
-    width: 100%;
-    position: absolute
+    width: calc(1111px - 546px);
     
 }
 
 .hero-circle {
-    position: relative;
-    right: -650px;
-    top: -750px;
-    z-index: -1;
+    right: -850px;
+    top:-1500px;
+    z-index: 900;
 }
 
+.hero-phone-container {
+    width:  100%;
+    
+}
 .hero-phone {
-    position: relative;
-    right: 100px;
-    top: -520px;
+    margin-left: 150px;
+    padding-top: 25px;
+    
 }
 
 .hero-text {
@@ -115,4 +125,11 @@ h1 {
 .hero-lead-btn {
     z-index: 999;
     margin-left: -170px;
+}
+
+/* Work section starts */
+
+.work-section { 
+    background-color: #1B262F;
+    height: 472px;
 }
