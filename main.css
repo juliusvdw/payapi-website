@@ -3,15 +3,14 @@ html body {
     font-family: 'Public Sans', sans-serif;
 }
 
-.hero-section {
-    height: 100vh;
-}
+
 
 /* Navbar Stying*/
 
 
 .navbar {
     margin-top: 40px;
+    background-color: transparent !important;
 }
 .navbar-nav {
     margin-left: 60px;
@@ -28,6 +27,7 @@ html body {
 
 .nav-item:hover {
     opacity: 1;
+    color: #36536B
 }
 
 .navbar-btn {
@@ -47,4 +47,30 @@ html body {
 
 .navbar-btn:hover {
     background-color: #DA6D97 !important;
+}
+
+/* Hero section index.html*/
+
+.hero-section {
+    height: 100vh;
+    overflow: hidden;
+    
+}
+
+.hero-left-col {
+    width: 546px;
+    height: 345px;
+}
+
+.hero-right-col {
+    width: 100%;
+    position: absolute
+    
+}
+
+.hero-circle {
+    position: relative;
+    right: -650px;
+    top: -600px;
+    z-index: -1;
 }
