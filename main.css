@@ -7,6 +7,17 @@ h1 {
     font-family: 'DM Serif Display', serif;
 }
 
+/*Global styles */
+
+.text-primary-light{
+    color: #6C8294;
+}
+
+.text-primary-dark {
+    color: #36536b;
+}
+
+
 /* Navbar Stying*/
 
 
@@ -32,7 +43,7 @@ h1 {
     color: #36536B
 }
 
-.navbar-btn {
+.schedule-demo-btn {
     width: 173px;
     height: 48px;
     font-size:15px ;
@@ -47,7 +58,7 @@ h1 {
     border: none !important;
 }
 
-.navbar-btn:hover {
+.schedule-demo-btn:hover {
     background-color: #DA6D97 !important;
 }
 
@@ -89,5 +100,19 @@ h1 {
 .hero-text h1 {
     font-size: 72px;
     font-weight: normal;
-    
+}
+
+.hero-lead-capture-container {
+    margin-top: 50px;
+}
+
+.hero-lead-input {
+    border: none !important;
+    border-radius: 24px !important;
+    width: 445px;
+}
+
+.hero-lead-btn {
+    z-index: 999;
+    margin-left: -170px;
 }
