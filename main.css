@@ -3,7 +3,9 @@ html body {
     font-family: 'Public Sans', sans-serif;
 }
 
-
+h1 {
+    font-family: 'DM Serif Display', serif;
+}
 
 /* Navbar Stying*/
 
@@ -71,6 +73,21 @@ html body {
 .hero-circle {
     position: relative;
     right: -650px;
-    top: -600px;
+    top: -750px;
     z-index: -1;
+}
+
+.hero-phone {
+    position: relative;
+    right: 100px;
+    top: -520px;
+}
+
+.hero-text {
+    margin-top: 145px;
+}
+.hero-text h1 {
+    font-size: 72px;
+    font-weight: normal;
+    
 }
