@@ -1,0 +1,50 @@
+html body {
+    background-color: #EDF3F8 ;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.hero-section {
+    height: 100vh;
+}
+
+/* Navbar Stying*/
+
+
+.navbar {
+    margin-top: 40px;
+}
+.navbar-nav {
+    margin-left: 60px;
+   
+}
+
+.nav-item {
+    margin-right: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    opacity: 0.7;
+    color: #36536B ;
+}
+
+.nav-item:hover {
+    opacity: 1;
+}
+
+.navbar-btn {
+    width: 173px;
+    height: 48px;
+    font-size:15px ;
+    font-weight: bold !important;
+    color: #FBFCFE !important;
+    background: #BA4270 !important;
+    display: flex !important;
+    justify-content: center !important;
+    vertical-align: center !important;
+    align-items: center !important;
+    border-radius: 24px !important;
+    border: none !important;
+}
+
+.navbar-btn:hover {
+    background-color: #DA6D97 !important;
+}
