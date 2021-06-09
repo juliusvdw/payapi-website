@@ -8,6 +8,11 @@ h1 {
     font-family: 'DM Serif Display', serif;
 }
 
+h2 {
+    font-family: 'DM Serif Display', serif;
+
+}
+
 p {
     font-family: 'Public Sans', sans-serif !important;
     line-height: 28px !important;
@@ -200,4 +205,24 @@ p {
     vertical-align: center;
     justify-content: center;
     align-items: center;
+  }
+
+  /* Easy to implement secion starts*/
+
+  .easy-to-implement-container {
+      height: 400px;
+      margin-top: 145px;
+  }
+
+  .easy-heading {
+      font-size: 48px;
+  }
+
+  .easy-text-container {
+      justify-content: center;
+      vertical-align: center;
+  }
+
+  .easy-subtext {
+      margin-top: 30px;
   }
