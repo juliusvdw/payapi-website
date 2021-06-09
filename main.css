@@ -8,6 +8,12 @@ h1 {
     font-family: 'DM Serif Display', serif;
 }
 
+p {
+    font-family: 'Public Sans', sans-serif !important;
+    line-height: 28px !important;
+
+}
+
 /*Global styles */
 
 .text-primary-light{
@@ -16,6 +22,10 @@ h1 {
 
 .text-primary-dark {
     color: #36536b;
+}
+
+.text-primary-white {
+    color: #FBFCFE;
 }
 
 
@@ -133,3 +143,61 @@ h1 {
     background-color: #1B262F;
     height: 472px;
 }
+
+.work-section-text-container {
+    margin-top: 110px;
+    width: 445px;
+    
+}
+
+.work-section-text-container h1 {
+    font-size: 48px;
+    font-weight: normal ;
+    
+}
+
+.work-section-subtext {
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.work-section-btn {
+    background-color: transparent !important;
+    border-radius: 24px !important;
+    border: 1px solid #FBFCFE !important;
+    height: 48px !important;
+    width: 129px !important;
+    font-size: 15px;
+    align-items: center;
+    vertical-align: center;
+    justify-content: center;
+    transition: 0.4s !important;
+}
+
+.work-section-btn:hover {
+    background-color: #FFFF !important;
+    color: #1B262F !important;
+    font-weight: bold;
+}
+
+.work-section-companies-container {
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    justify-content: center;
+    margin-top: -15px;
+}
+
+.companies-logo {
+    margin-top: 30px;
+    
+  }
+
+  .logo-container {
+    display: flex;
+    vertical-align: center;
+    justify-content: center;
+    align-items: center;
+  }
