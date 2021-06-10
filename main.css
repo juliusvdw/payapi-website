@@ -1,6 +1,7 @@
 html body {
     background-color: #EDF3F8 ;
     font-family: 'Public Sans', sans-serif;
+    overflow-x: hidden;
     
 }
 
@@ -250,10 +251,39 @@ p {
       justify-content: center;
   }
 
+  .simple-heading {
+      font-size: 48px;
+  }
+
   .simple-subtext {
       margin-top: 30px;
+      
   }
 
   .simple-image {
       margin-top: -110px;
+      margin-left: -50px;
   }
+
+  /* Three points section starts */
+
+  .three-points-section {
+      height:300px;
+      margin-top: 200px;
+  }
+
+  .points-container {
+      display: flex;
+      flex-direction: column;
+      vertical-align: center;
+      align-items: center;
+      justify-content:center;
+  }
+
+  .points-heading {
+      font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 17px;
+  }
+
+  
