@@ -298,16 +298,25 @@ p {
   }
   .cta-container {
       display: flex;
-
+      align-items: center;
   }
 
   .cta-heading {
-      align-items: flex-start;
+      font-size: 48px ;
   }
 
   .cta-capture {
       align-items: flex-end;
       justify-content: flex-end;
+  }
+
+  .cta-input {
+      height: 48px;
+
+  }
+
+  .cta-btn {
+      height: 48px;
   }
 
   /* Footer section starts*/
