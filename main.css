@@ -249,6 +249,14 @@ p {
       margin-top: 140px;
   }
 
+  .simple-image-col {
+        height: 100%;
+  }
+
+  .simple-text-col
+   {
+       height: 100%;
+   }
   .simple-text-container {
       height: 100%;
       display: flex;
@@ -439,8 +447,13 @@ p {
 
     /* Easy To implement section*/
 
+    .easy-to-implement-section {
+        height: 434px;
+    }
+
     .easy-to-implement-container {
         margin-top: 100px;
+        
     }
 
     .easy-image-container {
@@ -458,6 +471,35 @@ p {
         margin: 0 auto;
         justify-content: flex-start;
     }
+
+    /* Simple UI section*/
+
+    .simple-section {
+        margin-top: 300px;
+        height: 504px
+    };
+
+   .simple-image-container {
+       text-align: center;
+   }
+
+   .simple-image {
+       margin-left: 0px;
+   }
+
+   .simple-image-col {
+       height: calc(504px - 146px);
+   }
+   .simple-text-col {
+       height: 146px;
+       margin-top: -180px;
+       text-align: center;
+   }
+
+   .simple-subtext {
+       width: 573px;
+       margin: 30px auto;
+   }
  }
 
   
