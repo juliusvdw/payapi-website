@@ -436,6 +436,28 @@ p {
     .work-section-btn {
         margin: 0 auto;
     }
+
+    /* Easy To implement section*/
+
+    .easy-to-implement-container {
+        margin-top: 100px;
+    }
+
+    .easy-image-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .easy-image {
+        left: 0px;
+    }
+
+    .easy-text-container {
+        text-align: center;
+        width: 573px;
+        margin: 0 auto;
+        justify-content: flex-start;
+    }
  }
 
   
