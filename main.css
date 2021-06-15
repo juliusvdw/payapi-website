@@ -3,6 +3,7 @@ html body {
     font-family: 'Public Sans', sans-serif;
     overflow-x: hidden;
     
+    
 }
 
 h1 {
@@ -141,6 +142,10 @@ p {
 .hero-lead-btn {
     z-index: 999;
     margin-left: -170px;
+}
+
+.any-questiona {
+    margin-left: 30px;
 }
 
 /* Work section starts */
@@ -350,6 +355,63 @@ p {
       margin: 10px;
   }
 
- 
+ /* Tablet styling breakpoints */ 
+
+ @media (min-width: 768px) and (max-width: 1024px) { 
+
+    .hero-section {
+        height: 110vh;
+    }
+     .hero-container {
+         flex-direction: column;
+         height: 710px;
+     }
+
+     .hero-left-col {
+         order: 2;
+         margin: 0 auto;
+         width: 100%;
+
+     }
+
+     .hero-text {
+         
+         width: 573px;
+         margin: 30px auto;
+         text-align: center;
+         
+         
+     }
+
+     .hero-right-col {
+         order: 1;
+         width: 100%;
+     }
+
+     .hero-text h1 {
+        font-size: 52px;
+        
+     }
+
+     .hero-phone-container {
+    height: 600px;        
+     }
+
+    .hero-phone {
+       margin-left: 165px;
+    }
+
+    .hero-lead-capture-container {
+        justify-content: center;
+
+    }
+
+    .any-questions {
+        margin-left:  0px ;
+    }
+
+
+     
+ }
 
   
