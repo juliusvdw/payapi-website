@@ -194,6 +194,7 @@ p {
 }
 
 .work-section-companies-container {
+    height: 100%;
     display: flex;
     align-items: center;
     vertical-align: center;
@@ -359,6 +360,8 @@ p {
 
  @media (min-width: 768px) and (max-width: 1024px) { 
 
+    /* Hero section tablet*/
+
     .hero-section {
         height: 110vh;
     }
@@ -411,7 +414,28 @@ p {
     }
 
 
+    /* Who we work with section tablet */
+
+    .work-section{
+        height:625px ;
+    }
      
+    .work-section-companies-container {
+        height: 40% !important;
+    }
+
+    .work-section-col {
+        height: 60%;
+    }
+
+    .work-section-text-container {
+        margin: 0 auto !important;
+        text-align: center;
+    }
+
+    .work-section-btn {
+        margin: 0 auto;
+    }
  }
 
   
