@@ -501,6 +501,12 @@ p {
        width: 573px;
        margin: 30px auto;
    }
+
+   /* Three points section */
+
+   .three-points-section {
+       margin-top: 0px;
+   }
  }
 
   
