@@ -259,7 +259,6 @@ p {
 
   .simple-text-col
    {
-       height: 100%;
    }
   .simple-text-container {
       height: 100%;
@@ -694,7 +693,18 @@ p {
 
  .simple-text-container {
      height: 150px;
-     text-align:center
+     text-align:center;
+ }
+
+ /* Three points section */
+
+ .three-points-section {
+     height: 934px;
+     margin-top: 30px;
+ }
+
+ .points-container {
+     margin-top: 50px;
  }
 
 }
