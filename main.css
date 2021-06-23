@@ -8,18 +8,25 @@ html body {
 
 h1 {
     font-family: 'DM Serif Display', serif;
+    font-weight: normal !important;
 }
 
 h2 {
     font-family: 'DM Serif Display', serif;
+    font-weight: normal !important;
 
 }
+
+
 
 p {
     font-family: 'Public Sans', sans-serif !important;
     line-height: 28px !important;
 
 }
+
+
+
 
 /*Global styles */
 
@@ -371,6 +378,68 @@ p {
       margin: 10px;
   }
 
+  /* Pricing.html page*/
+
+  .pricing-heading {
+      font-size: 52px;
+      margin-top: 80px;
+  }
+
+  .pricing-columns {
+      min-height:582px;
+      margin-top:70px;
+      margin-bottom:100px
+  }
+
+  .pricing-plan-top {
+      height: 192px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+
+  .pricing-plan-heading {
+      color: #BA4270;
+      font-size: 32px;
+      font-weight: normal;
+  }
+
+  .pricing-plan-subtext {
+      color: #6C8294;
+      font-size: 15px;
+  }
+
+  .pricing-plan-price {
+      font-size: 56px;
+  }
+
+  .pricing-plan ul {
+    padding-left: 0px !important;
+}
+.pricing-plan ul li {
+    list-style-type: none !important;
+    margin-bottom: 15px;
+    color:#36536B;
+}
+
+.bullet-text {
+    padding-left: 20px;
+}
+
+.pricing-btn {
+    border: 1px solid #36536B !important;
+    color: #36536B !important;
+    font-size: 15px !important;
+    height: 48px !important;
+    width: 169px !important;
+    font-weight: bold !important;
+}
+
+.pricing-btn:hover {
+    background-color: #36536B !important;
+    color: #FBFCFE !important;
+}
+
  /* Tablet styling breakpoints */ 
 
  @media (min-width: 768px) and (max-width: 1024px) { 
@@ -610,9 +679,7 @@ p {
     .work-section-text-container {
         width: 100%;
     }
-    .companies-logo {
-       
-    }
+   
 
     .work-section-row {
         height: 300px;
