@@ -608,6 +608,21 @@ p {
        margin: 0 auto !important;
    }
 
+
+   /* Pricing page*/
+
+   .pricing-heading {
+        text-align: center;   
+        font-size: 48px;
+    }
+
+    .pricing-plan-heading {
+        font-size: 24px;
+    }
+
+    .pricing-plan-price {
+        font-size: 48px;
+    }
   
    
  }
