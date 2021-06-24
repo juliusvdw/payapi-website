@@ -842,6 +842,40 @@ p {
     .footer-socials {
         margin: 30px auto !important;
     }
+
+    /*Pricing page */
+
+    .pricing-plan {
+        margin-bottom:50px
+    }
+
+    .pricing-heading {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .pricing-plan-heading {
+        font-size: 24px;
+    }
+    .pricing-plan-subtext {
+        display: none;
+    }
+
+    .pricing-plan-top {
+        text-align: center;
+    }
+
+    .pricing-plan-bottom {
+        padding-left: 30%;
+    }
+
+    .pricing-btn-container {
+        text-align: center;
+    }
+
+    .cta-section {
+        margin-top: 20px;
+    }
 }
 
   
