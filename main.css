@@ -415,6 +415,7 @@ p {
 
   .pricing-plan ul {
     padding-left: 0px !important;
+    margin-top: 20px;
 }
 .pricing-plan ul li {
     list-style-type: none !important;
@@ -422,8 +423,14 @@ p {
     color:#36536B;
 }
 
-.bullet-text {
+.bullet-text-check {
     padding-left: 20px;
+}
+
+.bullet-text-hidden {
+    padding-left: 40px;
+    opacity: 0.5;
+
 }
 
 .pricing-btn {
