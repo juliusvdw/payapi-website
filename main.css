@@ -447,6 +447,24 @@ p {
     color: #FBFCFE !important;
 }
 
+/* About page */
+
+.about-heading {
+    width: 720px;
+    font-size: 56px;
+    margin-top: 90px;
+}
+
+.about-empower-subtext {
+    font-size: 15px;
+    color: #6C8294;
+    line-height: 28px;
+}
+
+.empower-first-row {
+    margin-top: 70px;
+    margin-bottom: 55px;
+}
  /* Tablet styling breakpoints */ 
 
  @media (min-width: 768px) and (max-width: 1024px) { 
