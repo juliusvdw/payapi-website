@@ -455,15 +455,52 @@ p {
     margin-top: 90px;
 }
 
-.about-empower-subtext {
+.about-empower-container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.about-info-subtext {
     font-size: 15px;
     color: #6C8294;
     line-height: 28px;
+    width: 635px;
 }
 
 .empower-first-row {
     margin-top: 70px;
     margin-bottom: 55px;
+}
+
+.about-image-section {
+    height: 500px;
+    background: url('assets/image-team-members.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.about-stats-section {
+    margin-bottom: 100px;
+}
+
+.stats-number {
+    color: #BA4270;
+    font-size: 56px;
+}
+
+.stats-col {
+    text-align: center;
+}
+
+.about-people-row {
+    margin-top: 55px;
+}
+
+.about-culture-section {
+    width: 900px;
+    margin: 0 auto;
 }
  /* Tablet styling breakpoints */ 
 
