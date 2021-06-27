@@ -678,7 +678,33 @@ p {
     .pricing-plan-price {
         font-size: 48px;
     }
-  
+
+    /* About page starts */ 
+    
+    .about-empower-container {
+        width: 100%;
+    }
+
+    .about-heading {
+        font-size: 48px;
+        text-align: center;
+        margin: 90px auto;
+        width: 573px;
+    }
+
+    .about-culture-section {
+        width: 100%;
+    }
+
+    .about-info-subtext {
+        width: 100%;
+    }
+
+
+    .about-image-section {
+        background-size: 900px;
+        height: 267px;
+    }
    
  }
 
@@ -930,6 +956,50 @@ p {
 
     .cta-section {
         margin-top: 20px;
+    }
+
+    /*About page */
+
+    .about-empower-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-info-subtext {
+        width: 100%;
+    }
+
+    .about-culture-section {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-heading {
+        font-size: 32px;
+        width: 100%;
+    }
+
+    .about-empower-container h2 {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    .about-culture-section h2 {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    .about-image-section {
+        background-size: 100%;
+        height:300px
+    }
+
+    .stats-col {
+        margin-bottom: 40px;
+    }
+    .about-stats-section {
+        margin-bottom:50px;
+        margin-top: 50px;
     }
 }
 
