@@ -555,6 +555,11 @@ p {
 
 }
 
+.contact-btn:hover {
+    background-color: #36536B !important;
+    color: #FBFCFE !important;
+}
+
 .contact-companies-heading {
     font-size: 24px;
     width: 460px;
