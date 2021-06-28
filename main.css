@@ -232,6 +232,8 @@ p {
       margin-top: 145px;
   }
 
+  
+
   .easy-heading {
       font-size: 48px;
   }
@@ -258,6 +260,7 @@ p {
   .simple-section {
       height: 410px;
       margin-top: 140px;
+      
   }
 
   .simple-image-col {
@@ -380,6 +383,13 @@ p {
 
   /* Pricing.html page*/
 
+
+  .pricing-section {
+    overflow: hidden;
+    background: url('assets/bg-pattern-circle.svg');
+    background-repeat: no-repeat;
+    background-position:  850px -500px;
+  }
   .pricing-heading {
       font-size: 52px;
       margin-top: 80px;
@@ -449,6 +459,15 @@ p {
 
 /* About page */
 
+
+.about-first-section {
+   
+        overflow: hidden;
+        background: url('assets/bg-pattern-circle.svg');
+        background-repeat: no-repeat;
+        background-position:  850px -500px;
+      
+}
 .about-heading {
     width: 720px;
     font-size: 56px;
@@ -504,6 +523,15 @@ p {
 }
 
 /* Contact page*/
+
+.contact-top-section {
+    
+        overflow: hidden;
+        background: url('assets/bg-pattern-circle.svg');
+        background-repeat: no-repeat;
+        background-position:  850px -500px;
+      
+}
 
 .contact-heading {
     width: 720px;
